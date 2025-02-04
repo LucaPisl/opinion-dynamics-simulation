@@ -3,7 +3,7 @@ This research explores how people's opinions shift and spread through social net
 
 ## Additional information
 
-==What's working==
+### What's working
 - Agents are created with proper values
 - Interactions do happen between agets, opinions do change
 - Basically everything at ABM init stage works
@@ -12,20 +12,20 @@ This research explores how people's opinions shift and spread through social net
 - Essentially, code executes
 
 
-==What's somewhat working==
+### What's somewhat working
 - Dynamic linking creation/breaking -> currently link creation and destrucion seems sporradic, it's 100% related to the variables, but also the step function is very complicated and probably contains some bugs
 - Tweaking the global variables to get actual accurate bevahior
 
-==What NEEDS improvement==
+### What NEEDS improvement
 - OPTIMIZATION -> right now it's very slow, it takes
 
-==What could use improvement, low priority==
+### What could use improvement, low priority
 - Reworking of the way the code uses the mesa scheduler, specifically the random scheduler (/scrambler I guess), because it's going to be deprecated
 
-==What's not working==
+### What's not working
 - Advanced network formation -> Currently networks are formed in a "free form" let's say, connections just form (based on the requirements), there are no actual clusters (communities), many agents are connected to each other and it's hard to actually tell what's happening.
 
 
 
-==Key takeaway==
+### Key takeaway
 - Parallelization, multi-threading, etc. is basically required for this to actually be feasible
