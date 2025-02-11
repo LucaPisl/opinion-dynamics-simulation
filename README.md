@@ -1,6 +1,14 @@
 # Opinion Dynamics Simulation
 This research explores how people's opinions shift and spread through social networks using a computer simulation technique called Agent-Based Modeling. By creating a dynamic model that mimics real-world social interactions, we investigate how individuals influence each other's perspectives. The simulation examines how opinions transform over time, tracking processes like consensus-building, growing disagreements, increasing polarization, and the conditions that might trigger unexpected social upheavals.
 
+## Requirements
+
+You need to install some python libraries using python pip in order to satisfy the imports in the program.
+
+`pip install pandas numpy seaborn matplotlib networkx mesa plotly scipy nbformat`
+
+If you cannot use pip to install python packages globally, create a python virtual environment (venv) and run the notebook with that. Tutorials are available online.
+
 ## Additional information
 
 ### What's working
